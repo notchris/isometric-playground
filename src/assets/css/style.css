@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+    text-rendering: optimizeLegibility;
+    font-kerning: auto;
+    outline: 0 !important;
+}
+
+html {
+    font-family: sans-serif;
+    font-size: 90%;
+}
+
+body {
+    margin: 0;
+    background: #f8f9fa;
+}
+
+html, body, #app {
+    width: 100%;
+    height: 100%;
+}
+
+.render {
+    width: 100%;
+    height: 100%;
+}
+
+
+.tabs {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 9999;
+    width: auto;
+    height: 28px;
+}
+
+.tabs button {
+    border-bottom-left-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+    border-bottom: none !important;
+}
+
+.panes {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background: #f8f9fa
+}
+
+.tabs_tools {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    width: 100%;
+    height: 28px;
+}
+
+.tabs_tools button {
+    border-radius: 0 !important;
+    font-size: 80% !important;
+}
+
+.tools {
+    width: 100%;
+    height: calc(100% - 28px);
+    position: absolute;
+    top: 28px;
+    left: 0;
+}
